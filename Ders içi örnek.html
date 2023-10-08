@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Zorunlu Kısımlara required attribute ekleyerek formda zorunlu alanlar oldugunu belirtir ve doldurulmadan form gönderilmez. -->
+    <fieldset>
+        <legend>Kayıt Formu</legend>
+        <form>
+            <label for="isim">İsim:</label><br>
+            <input type="text" placeholder="İsminizi Yazınız" id="İsim" required><br>
+            <label for="soyisim">Soyisim:</label><br>
+            <input type="text" name=""  placeholder="Soyisminizi Yazınız"id="soyisim" required><br>
+            <label for="Telefon">Tel:</label><br>
+            <input type="text" name=""  placeholder="Telefonunuzu Yazınız"id="Telefon"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name=""  placeholder="Emailinizi Yazınız"id="email"><br>
+            <label for="kullanıcıadı">Kullanıcı Adı:</label><br>
+            <input type="text" name="" placeholder="Kullanıcı Adınızı Yazınız" id="kullanıcıadı" required><br>
+            <label for="sifre">Sifre:</label><br>
+            <input type="password" name="" placeholder="Sifrenizi Yazınız" id="sifre"><br>
+            <label for="sifretekrar">Sifre Tekrar:</label><br>
+            <input type="password" name=""  placeholder="Tekrar Sifrenizi Yazınız"id="sifretekrar" required><br>
+            <label for="Ulke">Ulke Seciniz</label><br>
+            <select name="" id="Ulke">
+                <option value="">Türkiye</option>
+                <option value="">Almanya</option>
+                <option value="">Ukrayna</option>
+            </select><br>
+            <label for="Software">Software</label><br>
+            <input type="checkbox" name="Meslek" id="Software"><br>
+            <label for="Doktor" >Doktor</label><br>
+            <input type="checkbox" name="Meslek" id="Doktor"><br>
+            <label for="Mühendis" >Mühendis</label><br>
+            <input type="radio" name="Meslek" id="Mühendis"><br>
+            <input type="reset" value="Yenile">
+            <input type="submit" value="Submit">
+        </form>
+    </fieldset>
+</body>
+</html>
